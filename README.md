@@ -21,7 +21,7 @@ CSS, following the [Selectors Level 4 specification].
 ```
 
 [PostCSS Focus Within] replaces the `:focus-within` pseudo-selector with a
-`.focus-within` class selector, the same selector used by the
+`[focus-within]` attribute selector, the same selector used by the
 [focus-within polyfill]. The replacement selector can be changed using the
 `replaceWith` option.
 
