@@ -1,9 +1,9 @@
 # PostCSS Focus Within [<img src="https://postcss.github.io/postcss/logo.svg" alt="PostCSS Logo" width="90" height="90" align="right">][postcss]
 
-[![NPM Version][npm-img]][npm-url]
-[![CSS Standard Status][css-img]][css-url]
-[![Build Status][cli-img]][cli-url]
-[![Gitter Chat][git-img]][git-url]
+[<img alt="npm version" src="https://img.shields.io/npm/v/postcss-focus-within.svg" height="20">][npm-url]
+[<img alt="CSS Standard Status" src="https://cssdb.org/badge/focus-within-pseudo-class.svg" height="20">][css-url]
+[<img alt="build status" src="https://img.shields.io/travis/jonathantneal/postcss-focus-within/master.svg" height="20">][cli-url]
+[<img alt="support chat" src="https://img.shields.io/badge/support-chat-blue.svg" height="20">][git-url]
 
 [PostCSS Focus Within] lets you use the `:focus-within` pseudo-class in CSS,
 following the [Selectors Level 4 specification].
@@ -115,13 +115,9 @@ focusWithin({ replaceWith: '.focus-within' });
 }
 ```
 
-[css-img]: https://cssdb.org/badge/focus-within-pseudo-class.svg
 [css-url]: https://cssdb.org/#focus-within-pseudo-class
-[cli-img]: https://img.shields.io/travis/jonathantneal/postcss-focus-within.svg
 [cli-url]: https://travis-ci.org/jonathantneal/postcss-focus-within
-[git-img]: https://img.shields.io/badge/support-chat-blue.svg
 [git-url]: https://gitter.im/postcss/postcss
-[npm-img]: https://img.shields.io/npm/v/postcss-focus-within.svg
 [npm-url]: https://www.npmjs.com/package/postcss-focus-within
 
 [focus-within polyfill]: https://github.com/jonathantneal/focus-within
